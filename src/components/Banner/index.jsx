@@ -1,9 +1,13 @@
+import styles from './styles.module.scss';
+
 import bannerImg from '../../assets/banner.png';
 
 export function Banner() {
   return (
     <header>
-      <img src={bannerImg} alt="Banner" />
+      <div className={styles.headerContent}>
+        <img src={bannerImg} alt="Banner" />
+      </div>
     </header>
   )
 }
