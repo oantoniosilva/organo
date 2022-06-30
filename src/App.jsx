@@ -1,4 +1,6 @@
-import { Banner } from './components/Banner/Banner'
+import './styles/global.scss';
+
+import { Banner } from './components/Banner';
 
 export function App() {
   return (
